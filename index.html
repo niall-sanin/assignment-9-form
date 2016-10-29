@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>World War II Trivia Quiz</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<h1>World War II Trivia Quiz</h1>
+
+<h4>The following is a short quiz on World War II facts and trivia. All of the information below is attributed to the
+<a href="https://en.wikipedia.org/wiki/World_War_II"> Wikipedia page
+</a> on World War II.</h4>
+
+<div class="container">
+  <div class="row">
+
+  <div class="col-md-12">
+    <form>
+      <div class="form-group">
+        <p>
+        <label>
+            What was the name of the leader of Fascist Italy during World War II? (Hint: He called himself "Il Duce")
+
+        <input class="form-control" type="text" name="TextQuestion" id="question1" value="" maxlength="50">
+        </label>
+        </p>
+      </div>
+      <div class="form-group">
+        <p>
+        <label>
+            Which Japanese city was the first to be destroyed by the atomic bomb?
+
+        <input class="form-control" type="text" name="TextQuestion2" id="question2" value="" maxlength="50">
+        </label>
+        </p>
+      </div>
+      <div class="form-group">
+        <p>
+        <label>
+            What was the “false pretext” that the Germans used to justify their invasion of Poland?
+
+        <textarea class="form-control" name="TextQuestion3" id="question3" rows="5"></textarea>
+        </label>
+        </p>
+      </div>
+      <div class="form-group">
+        <p>
+        <label>
+            What was the date of D-Day?
+            </label>
+            </p>
+            <ul>
+              <li>
+              <label><input type="radio" name="RadioQuestion4" id="question4A" value="May16,1949"> May 16, 1949</label>
+              </li>
+              <li>
+              <label><input type="radio" name="RadioQuestion4" id="question4B" value="January20,1956"> January 20, 1956</label>
+              </li>
+              <li>
+              <label><input type="radio" name="RadioQuestion4" id="question4C" value="September30,1939"> September 30, 1939</label>
+              </li>
+              <li>
+              <label><input type="radio" name="RadioQuestion4" id="question4D" value="June6,1944"> June 6, 1944</label>
+              </li>
+            </ul>
+        </div>
+        <div class="form-group">
+        <p>
+        <label>
+            Who were the three primary countries representing the Axis Powers?
+            </label>
+            </p>
+            <ul>
+              <li>
+              <label><input type="checkbox" name="CheckQuestion5" id="question5A" value="Germany"> Germany</label>
+              </li>
+              <li>
+              <label><input type="checkbox" name="CheckQuestion5" id="question5B" value="TheUnitedStates"> The United States</label>
+              </li>
+              <li>
+              <label><input type="checkbox" name="CheckQuestion5" id="question5C" value="Canada"> Canada</label>
+              </li>
+              <li>
+              <label><input type="checkbox" name="CheckQuestion5" id="question5D" value="China"> China</label>
+              </li>
+              <li>
+              <label><input type="checkbox" name="CheckQuestion5" id="question5E" value="Italy"> Italy</label>
+              </li>
+              <li>
+              <label><input type="checkbox" name="CheckQuestion5" id="question5F" value="Japan"> Japan</label>
+              </li>
+            </ul>
+        </div>
+        <div class="form-group">
+        <p>
+        <label>
+            Who was the Supreme Allied Commander during World War II? (Hint: He later became a U.S. President)
+          </label>
+            <select class="form-control" name="MenuQuestion6" id="question6">
+              <option value="selectone..."> select one...</option>
+              <option value="FranklinD.Roosevelt"> Franklin D. Roosevelt</option>
+              <option value="HarryS.Truman"> Harry S. Truman</option>
+              <option value="DwightD.Eisenhower"> Dwight D. Eisenhower</option>
+              <option value="WinstonChurchill"> Winston Churchill</option>
+              <option value="RobinCruise"> Robin Cruise</option>
+              <option value="AudieMurphy"> Audie Murphy</option>
+              <option value="JohnF.Kennedy"> John F. Kennedy</option>
+              <option value="RichardNixon"> Richard Nixon</option>
+            </select>
+        </p>
+      </div>
+      <div class="form-group">
+        <p>
+          <input class="btn btn-default" type="submit" value="Submit"> <input class="btn btn-default" type="reset" value="Reset">
+        </p>
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
